@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Forest Flower</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-body-tertiary" style="padding: 0%;">
+        <div class="container-fluid navigation">
+            <a class="navbar-brand" href="#"><img class="logo" src="img/flower.jpeg" alt="Forest Flower"
+                    height="48px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success text-bold" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section class="background-pic">
+        <div class="container-fluid">
+            <h1 class="first-half">Forest Flower</h1>
+            <p class="second-half">
+                Explore the all-new Forest Flower!
+            </p>
+            <p class="second-half">
+                Get tips on Conscious Living, delve into the Mysteries of Life, uncover some little-known facets, peek
+                behind the scenes at our events, get the inside scoop on what’s happening, enjoy stunningly brilliant
+                photos, and much more.
+            </p>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 16rem;">
+                    <img src="img/mountain.jpeg" class="card-img-top" alt="mountain">
+                    <div class="card-body">
+                        <h5 class="card-title">Velliangiri: The Kailash of the South</h5>
+                        <p class="card-text">
+                            A Mystic tells the story of how Shiva came down to southern India and stayed a while at the
+                            Velliangiri
+                            Mountain, transforming it into...
+                        </p>
+                        <a href="page.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 16rem;">
+                    <img src="img/tree.avif" class="card-img-top" alt="mountain">
+                    <div class="card-body">
+                        <h5 class="card-title">How to Manifest What you Want</h5>
+                        <p class="card-text">
+                            Can you harness the power of the mind to manifest what you want? Is the law of attraction
+                            real? How does a devotee’s desire find...
+                        </p>
+                        <a href="page1.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 16rem;">
+                    <img src="img/climate.avif" class="card-img-top" alt="mountain">
+                    <div class="card-body">
+                        <h5 class="card-title">2 Causes and 4 Effects of Soil Degradation</h5>
+                        <p class="card-text">
+                            Soil degradation is the most pressing ecological challenge of our time. Sadhguru reveals the
+                            underlying causes of soil degradation...
+                        </p>
+                        <a href="page2.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="contact">
+        <h2 align="center">Contact Form</h2>
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="india">India</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="container mt-5" id="about">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About Us</h2>
+                <p>This is a brief description of our spiritual organization. We aim to spread peace, love, and harmony
+                    through
+                    our teachings and practices.</p>
+                <p>Forest Flower is an English Digital Magazine, it provides inside into life. Also get updated with the
+                    events at foundation </p>
+            </div>
+            <div class="col-md-6">
+                <img src="img/forest-flower-svg.svg" alt="Image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <img class="center-img" src="https://static.sadhguru.org/d/46272/1663645235-spandahall-banner.svg" alt="svg">
+    <!-- cdn link for bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
